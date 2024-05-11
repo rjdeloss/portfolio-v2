@@ -54,11 +54,23 @@
   ],
   "projects": [
       {
-      "date": "",
-      "name": "",
-      "description": "",
-      "website": "https://8thlight.com/",
-      "technologiesUsed":[],
+      "date": "May 2019",
+      "name": "OpenCounter",
+      "description": [
+        "openCounter is a full-stack web application inspired by OpenTable using Ruby on Rails, PostgreSQL, JavaScript, ReactJS, ReduxJS, CSS3, and HTML5."
+      ],
+      "website": "https://open-counter.herokuapp.com/",
+      "technologiesUsed":["PostgreSQL", "React", "JavaScript", "Redux"],
+      "image": ""
+    },
+    {
+      "date": "Jun 2019",
+      "name": "BitMaximo",
+      "description": [
+        "Bit Maximo! is a dexterity-based infinite runner that tests hand-eye coordination using JavaScript, Webpack, Canvas API, HTML5, and CSS3."
+      ],
+      "website": "https://rafiluis.dev/bit-maximo/",
+      "technologiesUsed":["PostgreSQL", "React", "JavaScript", "Redux"],
       "image": ""
     }
   ]
