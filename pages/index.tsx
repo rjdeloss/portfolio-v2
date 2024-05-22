@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="bg-cover bg-center h-screen" style={{backgroundImage: `url(${beach.src})`, width: '100%'}}>
+    <div className="bg-cover bg-center bg-slate-800/50 text-slate-400">
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <main className="lg:flex lg:justify-between lg:gap-4">
           <Introduction />
