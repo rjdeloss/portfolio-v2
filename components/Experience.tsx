@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { techPill } from "@/utilities/techPill";
 
+const resume = "rafiluis_delossantos_resume.pdf"
 // this needs to be broken down further. An object needs to be passed as work history.
 const jobDescription = (experience:any, i:number) => {
   const {date, role, company, description, technologiesUsed}= experience;
@@ -64,7 +65,7 @@ export const Experience = () => {
           {experiences.map( (experience:any, i:number) => jobDescription(experience, i))}
         </ol>
         <div className="mt-12">
-          <a href="/resume.pdf"
+          <a href={`/${resume}`}
             className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
             target="_blank"
             rel="noreferrer noopener"
