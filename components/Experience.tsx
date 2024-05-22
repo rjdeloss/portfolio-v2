@@ -1,12 +1,5 @@
 import { useEffect, useState } from "react";
-
-const techPill = (technology: string) => {
-  return (
-    <li className="mr-1.5 mt-2">
-      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 "> {technology}</div>
-    </li>
-  )
-}
+import { techPill } from "@/utilities/techPill";
 
 // this needs to be broken down further. An object needs to be passed as work history.
 const jobDescription = (experience:any, i:number) => {
