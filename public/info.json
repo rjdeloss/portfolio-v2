@@ -1,16 +1,16 @@
 {
-  "name":"Rafiluis De Los Santos",
-  "currentRole":"Software Engineer",
-  "description":"I build digital experiences for the web and mobile devices",
-  "experience": [
+  "personal": {
+    "name":"Rafiluis De Los Santos",
+    "currentRole":"Software Engineer",
+    "description":"I build digital experiences for the web and mobile devices"
+  },
+  "experiences": [
     {
       "date": "Feb 2022 — Oct 2023",
       "role": "Software Engineer",
       "company": "8th Light",
       "description": [
-        "Implemented a client portal redesign with React, Next.js, and Ruby on Rails, facilitating efficient communication between designers and stakeholders through continuous feedback loops and integration of 3rd party APIs.",
-        "Managed ongoing enhancements and maintenance of a critical filtering feature in an internal application, actively participating in code reviews, pairing, and refactoring to ensure code quality and functionality.",
-        "Led a proof of concept for cross-platform mobile app development using React Native, Android core functionality, and Zendesk, collaborating closely with UI/UX designers and stakeholders to optimize user experience and prepare for potential client deployment on the Google Play Store."
+        "Worked with seveal clients across multiple industries and l`ed a green-field concept for a cross-platform mobile app using React Native, Android core functionality, and Zendesk, collaborating closely with UI/UX designers and stakeholders to optimize user experience and prepare for potential client deployment on the Google Play Store."
       ],
       "website": "https://8thlight.com/",
       "technologiesUsed":["React", "Next.js", "Ruby on Rails", "React Native", "Android"],
@@ -21,8 +21,7 @@
       "role": "Software Engineer Technical Assistant",
       "company": "App Academy",
       "description": [
-        "Mentored future software engineers in JavaScript, emphasizing language intricacies, coding best practices, and style principles, while offering personalized one-on-one guidance to nurture their career development.",
-        "Conducted code assessments, provided constructive feedback on coding style and practices, and contributed to the establishment of internal best practices through training and active participation."
+        "Mentored future software engineers in JavaScript, emphasizing language intricacies, coding best practices, and style principles, while offering personalized one-on-one guidance to nurture their career development along with other internal initiatives."
       ],
       "website": "https://www.appacademy.io/",
       "technologiesUsed":["React", "Javascript", "Ruby on Rails"],
@@ -33,8 +32,7 @@
       "role": "Software Engineer",
       "company": "Embark Corporation",
       "description": [
-        "Contributed in developing admissions software for higher education using Angular, MongoDB, and Node.js",
-        "Additionally, optimized front-end rendering logic to significantly decrease load times and enhance browser efficiency by 60%, and collaborated with senior engineers to implement reactive forms with custom validations and auto-saving functionality using JSON stored within MongoDB documents, alongside refactoring CSS for mobile-responsive applications."
+        "Collaborated with other engineers in developing modular admissions software for higher education using Angular, MongoDB, and Node.js"
       ],
       "website": "https://embark.com/",
       "technologiesUsed":["AngularJS", "Angular", "Express", "Node", "Javascript", "MongoDB"],
@@ -61,7 +59,7 @@
       ],
       "website": "https://open-counter.herokuapp.com/",
       "technologiesUsed":["PostgreSQL", "React", "JavaScript", "Redux"],
-      "image": ""
+      "images": "open_counter_home.png"
     },
     {
       "date": "Jun 2019",
@@ -70,8 +68,8 @@
         "Bit Maximo! is a dexterity-based infinite runner that tests hand-eye coordination using JavaScript, Webpack, Canvas API, HTML5, and CSS3."
       ],
       "website": "https://rafiluis.dev/bit-maximo/",
-      "technologiesUsed":["PostgreSQL", "React", "JavaScript", "Redux"],
-      "image": ""
+      "technologiesUsed":["JavaScript", "Webpack", "CanvasAPI", "HTML5", "CSS3"],
+      "images": "bit_naximo.png"
     }
   ]
 }
